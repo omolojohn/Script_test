@@ -1,0 +1,64 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+*.env
+*.sqlite3
+*.log
+*.bak
+
+# Flask
+instance/
+*.db
+*.sqlite
+*.log
+*.pid
+*.sock
+
+# Database
+*.db
+*.sql
+*.pgsql
+
+# PostgreSQL/PostGIS
+*.pgpass
+
+# Frontend (if you have a frontend setup)
+node_modules/
+build/
+dist/
+
+# Environment variables
+.env
+*.env
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Pytest
+*.coverage
+coverage.xml
+nosetests.xml
+test_*.xml
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+
+# Others
+*.log
+*.bak
